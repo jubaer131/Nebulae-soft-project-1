@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.div-container-top-border {
+    border-top: 1px solid #dcd5d5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.left-side-bar {
+    max-width: 200px;
+}
+
+.navbar-logo {
+    max-width: 200px;
+
+
+}
+
+.div-container-leftside-border {
+    max-width: 1670px;
+    border-left: 1px solid #dcd5d5;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.header-bottom-border {
+    border-bottom: 1px solid #dcd5d5;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border: none;
+}
+
+.custom-navbar-toggler {
+    max-width: 505px;
+    max-height: 90px;
+}
+
+.Toggle-button {
+    width: 170px;
+    max-height: 97px;
+    padding: 25px 15px;
+    border: 0;
+    border-left: 1px solid #dcd5d5;
+    border-radius: 0%;
+    background-color: #ffff;
+
+}
+
+.map-container {
+    height: 600px;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-form {
+    padding: 150px;
+}
+
+.custom-input {
+    border: none;
+    border-bottom: 2px solid rgb(138, 136, 136);
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+
+}
+
+.custom-input:focus {
+
+    outline: none;
+    box-shadow: none;
+}
+
+.custom-input::placeholder {
+    color: #e5e3df;
+    opacity: 1;
+
+}
+
+.footer {
+    height: 600px;
+}
+
+.footer-container {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+
+@media (max-width:768px) {
+
+    .div-container-top-border {
+        border-top: none;
+        flex: none;
+    }
+
+    .left-side-bar {
+        display: none;
+    }
+
+    .navbar-logo {
+        max-width: 200px;
+
+    }
+
+    .div-container-leftside-border {
+        border-left: none;
+    }
+
+    .header-bottom-border {
+        border-bottom: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        border: none;
+    }
+
+    .Toggle-button {
+        width: 70px;
+        max-height: 50px;
+        padding: 15px 10px;
+        border-left: none;
+        display: none;
+    }
+
+    .qodef-m-label.qodef-side-area-opener-text {
+        display: none;
+    }
+
+    .text-form {
+        padding: 20px;
+    }
+
+    .footer {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 25px;
+    }
+
+    .footer-container {
+        padding: 0;
+        padding-bottom: 100px;
+    }
+
+}
