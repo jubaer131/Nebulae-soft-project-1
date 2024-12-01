@@ -29,7 +29,7 @@
             <div class="container-fluid m-0 div-container-leftside-border">
                 <!--header -->
                 <div class="d-none d-lg-flex justify-content-between  header-bottom-border p-1 ">
-                    <div class="d-flex justify-content-start gap-5 ps-5 ">
+                    <div class="d-flex justify-content-start gap-5 ps-5">
                         <span style="font-size: 13px;  "><a style="color: #262626;" class="text-decoration-none"
                                 href="mailto:halstein@exampl.com">halstein@example.com</a></span>
                         <span style="color: #b9b8b8;">|</span>
@@ -42,8 +42,8 @@
                     </div>
                     <div>
                         <div class="dropdown " style=" padding: 0 45px;">
-                            <button class="border border-0 dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="border border-0 dropdown-toggle bg-transparent" type="button"
+                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                                 English
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -55,18 +55,20 @@
                     </div>
                 </div>
                 <!-- Navbar -->
-                <div class="d-md-flex justify-content-lg-between ">
+                <div class="d-flex justify-content-md-between ">
                     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                        <div class="container-fluid d-flex justify-content-between">
+                        <div class="container-fluid  d-flex gap-3">
 
                             <div class="navbar-logo d-md-none">
                                 <img src="https://i.ibb.co.com/nLbXj6p/halstein-main-logo.png" class="img-fluid"
                                     alt="image desc" />
                             </div>
 
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+                            <button style=" outline: none;box-shadow: none;transition: none;"
+                                class="navbar-toggler d-md-none border-0 no-active" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation;">
                                 <span class="qodef-m-icon qodef--open">
 
                                     <svg class="qodef-svg--menu" xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +193,7 @@
                         class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
                         <div style="padding: 50px; padding-top: 150px;">
@@ -203,27 +205,24 @@
 
                                 <div class="d-flex align-items-center gap-3">
                                     <!-- Social Icon 1 -->
-                                    <div class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle"
-                                        style="width: 35px; height: 35px; background-color: #e6dac3; color: #000; transition: background-color 0.3s;">
-                                        <a itemprop="url" href="#" target="_blank"
-                                            class="text-decoration-none text-dark">
-                                            LI
+                                    <div
+                                        class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle">
+                                        <a itemprop="url" href="#" target="_blank" class="text-decoration-none ">
+                                            FB
                                         </a>
                                     </div>
 
                                     <!-- Social Icon 2 -->
-                                    <div class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle"
-                                        style="width: 35px; height: 35px; background-color: #ecdec2; color: #000; transition: background-color 0.3s;">
-                                        <a itemprop="url" href="#" target="_blank"
-                                            class="text-decoration-none text-dark">
-                                            FB
+                                    <div
+                                        class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle">
+                                        <a itemprop="url" href="#" target="_blank" class="text-decoration-none ">
+                                            LI
                                         </a>
                                     </div>
                                     <!-- Social Icon 3 -->
-                                    <div class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle"
-                                        style="width: 35px; height: 35px; background-color: #eadbbe; color: #000; transition: background-color 0.3s;">
-                                        <a itemprop="url" href="#" target="_blank"
-                                            class="text-decoration-none text-dark">
+                                    <div
+                                        class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle">
+                                        <a itemprop="url" href="#" target="_blank" class="text-decoration-none ">
                                             TW
                                         </a>
                                     </div>
@@ -239,35 +238,45 @@
         </div>
     </nav>
 
-    <section class="d-flex align-items-center justify-content-center w-100"
-        style="height: 550px; margin-top: 120px ;  background: url('https://i.ibb.co.com/Lgn14vR/contact-title-img.jpg') center/cover no-repeat;">
-        <div style="width: 1300px; margin: 0 auto;" class="text-start  ">
-            <p class="fs-4 m-0">Our People</p>
-            <h1 class="fs-1  ">Contact Us</h1>
+    <!-- Banner section -->
+
+    <section class="d-flex align-items-center justify-content-center w-100 section1"
+        style="height: 550px; margin-top: 120px; background: url('https://i.ibb.co.com/Lgn14vR/contact-title-img.jpg') center/cover no-repeat;">
+        <div class="container text-start">
+            <div class="row">
+                <div class="mx-auto">
+                    <h5 style="color: #d4bb9d; font-family: monospace;font-weight: 700; line-height: 40px; font-size:13px; letter-spacing: 7px;"
+                        class="">OUR
+                        PEOPLE
+                    </h5>
+                    <h1 style=" line-height: 40px; color: #404043; font-size: 55px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; "
+                        class="">Contact Us</h1>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- first step section -->
 
     <section class="container-fluid ">
         <div class="row align-items-center">
             <!-- Text/Form  -->
             <div class="col-lg-6 col-md-12 ">
                 <div class="text-form">
-                    <h5 class="text-uppercase text-muted mb-3">First Step</h5>
-                    <h1 class="mb-4">For starters, tell us your name.</h1>
+                    <h5 style="color: #d4bb9d; font-family: monospace;font-weight: 700; line-height: 30px; font-size:13px; letter-spacing: 7px;"
+                        class="text-uppercase  mb-3">First Step</h5>
+                    <h1 style="font-size: 45px; color: #373636; font-weight: 400; line-height: 50px;" class="mb-4">For
+                        starters, tell us
+                        your name.</h1>
                     <form>
                         <div class="mb-3">
-                            <input type="text" class="form-control custom-input" id="fullName"
-                                placeholder="Enter your name">
+                            <input style=" padding-top: 20px;" type="text" class="form-control custom-input"
+                                id="fullName" placeholder="Full name*">
                         </div>
-                        <button type="submit" class="btn mt-3 text-end w-100">Next Step
-                            <span class="qodef-m-icon"><svg class="qodef-svg--button-arrow"
-                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    x="0px" y="0px" width="17" viewBox="0 0 17 20"
-                                    style="enable-background:new 0 0 17 20;" xml:space="preserve">
-                                    <polyline class="qodef-m-arrow" points="7.1,3.9 13,9.8 7.1,15.9 "></polyline>
-                                    <rect class="qodef-m-line" width="1" height="20"></rect>
-                                </svg></span></button>
-
+                        <button type="submit" class="btn mt-5 text-end w-100 p-0">Next Step
+                            <span class=""><span style="font-size: 20px;color: #797c8d; padding-left: 10px;">|</span>
+                                <i style="color: #797c8d;" class="fa-solid fa-chevron-right"></i></span>
+                        </button>
                     </form>
                 </div>
             </div>
@@ -283,9 +292,11 @@
             </div>
         </div>
     </section>
+    <!-- Follow us section -->
+
     <section class="d-flex justify-content-center align-items-center w-100"
-        style="height: 250px; background-color: #fbf9f9;">
-        <h1 class="text-center mb-0">Follow us and receive latest researches, insights & news</h1>
+        style="height: 250px; background-color: #fbf9f9; color: #4d4c4b; font-size: 35px; font-family: 'Gill Sans', 'Gill Sans MT',  sans-serif;">
+        <h1 class="text-center mb-0 fs-2 ">Follow us and receive latest researches, insights & news</h1>
     </section>
 
 
@@ -295,34 +306,32 @@
         <div class="container  text-white ">
             <div class="d-md-flex justify-content-between footer-container">
                 <!-- Column 1 -->
-                <div class="row" class="col-md-6 ">
+                <div class="row" class="col-md-5 pt-2">
                     <img style="width: 220px; background-size: cover; background-position: center; background-repeat: no-repeat;"
                         src="https://i.ibb.co/LrtQkL6/footer-logo.png" alt="Halstein Logo" class="mb-3">
-                    <p>Professional & modern, a theme designed to help your business stand out from the rest. For
+                    <p class="footer-colom1">Professional & modern, a theme designed to help your business stand out
+                        from the rest. For
                         marketing firms, business endeavors & business consulting.</p>
 
 
                     <div class="d-flex align-items-center gap-3">
                         <!-- Social Icon 1 -->
-                        <div class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle"
-                            style="width: 35px; height: 35px; background-color: #e6dac3; color: #000; transition: background-color 0.3s;">
-                            <a itemprop="url" href="#" target="_blank" class="text-decoration-none text-dark">
-                                LI
-                            </a>
-                        </div>
-
-                        <!-- Social Icon 2 -->
-                        <div class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle"
-                            style="width: 35px; height: 35px; background-color: #ecdec2; color: #000; transition: background-color 0.3s;">
-                            <a itemprop="url" href="#" target="_blank" class="text-decoration-none text-dark">
+                        <div class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle">
+                            <a itemprop="url" href="#" target="_blank" class="text-decoration-none ">
                                 FB
                             </a>
                         </div>
 
+                        <!-- Social Icon 2 -->
+                        <div class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle">
+                            <a itemprop="url" href="#" target="_blank" class="text-decoration-none ">
+                                LI
+                            </a>
+                        </div>
+
                         <!-- Social Icon 3 -->
-                        <div class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle"
-                            style="width: 35px; height: 35px; background-color: #eadbbe; color: #000; transition: background-color 0.3s;">
-                            <a itemprop="url" href="#" target="_blank" class="text-decoration-none text-dark">
+                        <div class="icon-hover-color d-flex justify-content-center align-items-center rounded-circle">
+                            <a itemprop="url" href="#" target="_blank" class="text-decoration-none ">
                                 TW
                             </a>
                         </div>
@@ -333,29 +342,37 @@
 
                 <!-- Column 2 -->
                 <div class="col-md-2">
-                    <h5 class="text-uppercase">Halstein</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white text-decoration-none">Privacy</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Conditions</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Offices</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Careers</a></li>
+                    <h5 style="font-size: 17px; font-weight: 500;" class="text-uppercase pt-md-2 pt-4 ">Halstein</h5>
+                    <ul class="list-unstyled ">
+                        <li class="py-2 "><a style="color: #797c8d;" href="#" class=" text-decoration-none">Privacy</a>
+                        </li>
+                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">Conditions
+                        </li>
+                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">Offices</a>
+                        </li>
+                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">Careers</a>
+                        </li>
                     </ul>
                 </div>
 
                 <!-- Column 3 -->
                 <div class="col-md-2">
-                    <h5 class="text-uppercase">FAQ</h5>
+                    <h5 style="font-size: 17px; font-weight: 500;" class="text-uppercase  pt-md-2 pt-4">FAQ</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white text-decoration-none">Got any questions?</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Buying tickets?</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">How to advertise?</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">How to find us?</a></li>
+                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">Got any
+                                questions?</a></li>
+                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">Buying
+                                tickets?</a></li>
+                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">How to
+                                advertise?</a></li>
+                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">How to find
+                                us?</a></li>
                     </ul>
                 </div>
 
                 <!-- Column 4 -->
                 <div class="col-md-2">
-                    <h5 class="text-uppercase">Subscribe</h5>
+                    <h5 style="font-size: 17px; font-weight: 500;" class="text-uppercase  pt-md-2 pt-4">Subscribe</h5>
                     <form>
                         <div class="">
                             <div class="input-group">
@@ -363,37 +380,41 @@
                                     style="background: none; color:#e5e3df; border: none; border-bottom: 1px solid #e5e3df; border-radius: 0%;"
                                     type="text" class="form-control custom-input" id="fullName" placeholder="Email">
                                 <span
-                                    style="background: none; color:#e5e3df; border: none; border-bottom: 1px solid #e5e3df; border-radius: 0%;"
-                                    class="input-group-text">| ></span>
+                                    style="background: none;  color: #797c8d;; border: none; border-bottom: 1px solid #e5e3df; border-radius: 0%;"
+                                    class="input-group-text"><span
+                                        style="font-size: 20px;padding-bottom: 5px; padding-right: 2px;color: #88857d;">|</span>
+                                    <i style=" color: #797c8d;" class="fa-solid fa-chevron-right"></i></span></span>
                             </div>
-                            <span>send message</span>
+                            <span style=" color: #797c8d;">*send message</span>
                         </div>
                     </form>
                 </div>
             </div>
 
         </div>
-        <hr class="border ">
+        <hr style="border: 1px solid  #616370;">
+
+
 
         <div class="container d-md-flex justify-content-between ">
 
-            <div class="text-primary">
 
-                <div class="text-center ">
-                    <p class="mb-0 p-1">© 2022 Qode Interactive, All Rights Reserved</p>
-                </div>
+
+            <div style=" color: #797c8d;" class="text-center ">
+                <small class="mb-0 p-1">© 2022 Qode Interactive, All Rights Reserved</small>
             </div>
-            <div class="d-lg-flex justify-content-lg-between gap-3 text-center ">
-                <span style="font-size: 13px;  "><a style="color: #b9b8b8;" class="text-decoration-none"
+
+            <div class="d-lg-flex justify-content-lg-between gap-3 text-center  ">
+                <span style="font-size: 13px;  "><a style="color: #797c8d;" class="text-decoration-none"
                         href="#">ZURICH</a></span>
-                <span style="color: #b9b8b8;">|</span>
-                <span style="font-size: 13px;  "><a style="color: #b9b8b8;" class="text-decoration-none"
+                <span style="color: #797c8d;font-size: 13px; ">|</span>
+                <span style="font-size: 13px;  "><a style="color: #797c8d;" class="text-decoration-none"
                         href="#">ZURICH</a></span>
-                <span style="color: #c5c5c5;">|</span>
-                <span style="font-size: 13px; "><a style="color: #b9b8b8;" class="text-decoration-none" href="#">
+                <span style="color: #797c8d;font-size: 13px;">|</span>
+                <span style="font-size: 13px; "><a style="color: #797c8d;" class="text-decoration-none" href="#">
                         TOKYO</a></span>
-                <span style="color: #c5c5c5;">|</span>
-                <span style="font-size: 13px; "><a style="color: #b9b8b8;" class="text-decoration-none" href="#">
+                <span style="color: #797c8d;font-size: 13px;">|</span>
+                <span style="font-size: 13px; "><a style="color: #797c8d;" class="text-decoration-none" href="#">
                         TOKYO</a></span>
             </div>
         </div>
