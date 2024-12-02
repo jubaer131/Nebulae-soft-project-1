@@ -172,13 +172,32 @@ iframe {
     }
 
     .navbar-logo {
-        max-width: 200px;
+        max-width: 180px;
 
+    }
+
+    .nav-container1 {
+        width: 100%;
+        flex: none;
+        padding: 0%;
+        margin: 0%;
+
+
+    }
+
+    .nav-container2 {
+        max-width: 40%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0%;
+        margin: 0%;
     }
 
 
     .div-container-leftside-border {
         border-left: none;
+        max-width: 760px;
     }
 
     .header-bottom-border {
